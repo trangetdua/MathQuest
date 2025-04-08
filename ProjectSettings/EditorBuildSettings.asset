@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SelectLevel.unity
     guid: abf3c9daf92b27b4989a7c46e3d0024d
   - enabled: 1
+    path: Assets/Scenes/NiveauSelect.unity
+    guid: e35760a6f1852be438e9341bb7e20cd5
+  - enabled: 1
     path: Assets/Scenes/Egypt1.unity
     guid: fca23f179fcd7ff4d83fa49dddf5f241
   m_configObjects:
