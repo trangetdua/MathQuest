@@ -18,11 +18,17 @@ public class PlayerControllerRaida : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
         mySpriteRender = GetComponent<SpriteRenderer>();
+        movement = Vector2.zero;
     }
 
     private void OnEnable()
     {
         playerControls.Enable();
+    }
+
+    private void OnDisable()
+    {
+        playerControls.Disable();
     }
 
     private void Update()
@@ -39,6 +45,7 @@ public class PlayerControllerRaida : MonoBehaviour
     private void PlayerInput()
     {
         movement = playerControls.Movement.Move.ReadValue<Vector2>();
+        Debug.Log("Movement input: " + movement);
 
         myAnimator.SetFloat("moveX", movement.x);
         myAnimator.SetFloat("moveY", movement.y);
@@ -46,7 +53,10 @@ public class PlayerControllerRaida : MonoBehaviour
 
     private void Move()
     {
-        rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
+        if (movement != Vector2.zero)
+        {
+            rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
+        }
     }
 
     private void AdjustPlayerFacingDirection()
