@@ -1,0 +1,27 @@
+[
+    {
+      "equation": "Quelles sont les valeurs de x, y? 2x + 3y = 5, x - y = 1\n(suivez cet exemple pour entrer votre reponse : x = -2, x = -3)",
+      "solution": "x = 2, y = 1",
+      "indice": "Résous le système en remplaçant l'une des variables."
+    },
+    {
+      "equation": "Quelles sont les valeurs de x et y? 3x - y = 4, 2x + y = 7\n(suivez cet exemple pour entrer votre reponse : x = -2, x = -3)",
+      "solution": "x = 3, y = 1",
+      "indice": "Essaie d'additionner ou de soustraire les équations pour éliminer une variable."
+    },
+    {
+      "equation": "Quelles sont les valeurs de x et y? x + 2y = 6, 3x - y = 7\n(suivez cet exemple pour entrer votre reponse : x = -2, x = -3)",
+      "solution": "x = 3, y = 1.5",
+      "indice": "Commence par isoler x ou y dans l'une des équations."
+    },
+    {
+      "equation": "Quelles sont les valeurs de x et y? 4x + 3y = 9, 2x - y = 5\n(suivez cet exemple pour entrer votre reponse : x = -2, x = -3)",
+      "solution": "x = 2, y = -1",
+      "indice": "Essaye de multiplier pour égaliser les coefficients de l'une des variables et éliminer."
+    },
+    {
+      "equation": "Quelles sont les valeurs de x et y? 5x - 2y = 3, 3x + 4y = 11\n(suivez cet exemple pour entrer votre reponse : x = -2, x = -3)",
+      "solution": "x = 2, y = 1",
+      "indice": "Multiplie l'une des équations pour éliminer une des variables."
+    }
+  ]

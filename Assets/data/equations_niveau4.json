@@ -1,0 +1,27 @@
+[
+    {
+      "equation": "Quelles sont les valeurs de x, y et z? x + y + z = 6, 2x - y + 3z = 14, x - 3y + 2z = 5\n(suivez cet exemple pour entrer votre reponse : x = -2, x = -3, z = 4)",
+      "solution": "x = 3, y = -1, z = 4",
+      "indice": "Utilise la substitution ou l'élimination pour résoudre ce système."
+    },
+    {
+      "equation": "Quelles sont les valeurs de x, y et z? x - 2y + z = 4, 3x + y - 2z = 7, 2x + y + z = 5\n(suivez cet exemple pour entrer votre reponse : x = -2, x = -3, z = 4)",
+      "solution": "x = 3, y = 1, z = 2",
+      "indice": "Essaie d'éliminer une variable en combinant les équations."
+    },
+    {
+      "equation": "Quelles sont les valeurs de x, y et z? 2x + 3y - z = 4, 3x - y + 2z = 10, x + 2y + 3z = 9\n(suivez cet exemple pour entrer votre reponse : x = -2, x = -3, z = 4)",
+      "solution": "x = 2, y = 1, z = 3",
+      "indice": "Cherche à éliminer une variable pour résoudre le système."
+    },
+    {
+      "equation": "Quelles sont les valeurs de x, y et z? x + y + z = 8, 2x + 3y + z = 10, 3x - y + 2z = 12\n(suivez cet exemple pour entrer votre reponse : x = -2, x = -3, z = 4)",
+      "solution": "x = 2, y = 1, z = 5",
+      "indice": "Utilise l'élimination pour réduire le système à deux équations avec deux inconnues."
+    },
+    {
+      "equation": "Quelles sont les valeurs de x, y et z? 4x - 2y + z = 5, 3x + y - z = 6, 2x + 3y + 2z = 7\n(suivez cet exemple pour entrer votre reponse : x = -2, x = -3, z = 4)",
+      "solution": "x = 1, y = 2, z = 3",
+      "indice": "Commence par additionner ou soustraire pour éliminer l'une des variables."
+    }
+  ]

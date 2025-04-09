@@ -1,0 +1,27 @@
+[
+  {
+    "equation": "Quelle est la valeur de x?  x + 4 = 9\n(suivez cet exemple pour entrer votre reponse : -5)",
+    "solution":  5,
+    "indice": "Soustrais 4 des deux côtés"
+  },
+  {
+    "equation": "Quelle est la valeur de x?  2x = 10\n(suivez cet exemple pour entrer votre reponse : -5)",
+    "solution":  5,
+    "indice": "Divise par 2 des deux côtés"
+  },
+  {
+    "equation": "Quelle est la valeur de x?  x - 3 = 7\n(suivez cet exemple pour entrer votre reponse : -5)",
+    "solution": 10,
+    "indice": "Ajoute 3 des deux côtés"
+  },
+  {
+    "equation": "Quelle est la valeur de x?  3x + 2 = 11\n(suivez cet exemple pour entrer votre reponse : -5)",
+    "solution":  3,
+    "indice": "Soustrais 2, puis divise par 3"
+  },
+  {
+    "equation": "Quelle est la valeur de x?  5x - 5 = 0\n(suivez cet exemple pour entrer votre reponse : -5)",
+    "solution": 1,
+    "indice": "Ajoute 5, puis divise par 5"
+  }
+]
