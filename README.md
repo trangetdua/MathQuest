@@ -15,14 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://git.iut-orsay.fr/vdang2/mathquest.git
+git remote add origin https://git.iut-orsay.fr/nav/mathquest.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://git.iut-orsay.fr/vdang2/mathquest/-/settings/integrations)
+- [ ] [Set up project integrations](https://git.iut-orsay.fr/nav/mathquest/-/settings/integrations)
 
 ## Collaborate with your team
 
