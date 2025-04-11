@@ -5,6 +5,6 @@ public class StartGame : MonoBehaviour
 {
     public void LoadSignInScene()
     {
-        SceneManager.LoadScene(1); 
+        SceneManager.LoadScene("IntroVideoScene");
     }
 }

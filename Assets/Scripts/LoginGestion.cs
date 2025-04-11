@@ -26,7 +26,7 @@ public class LoginGestion : MonoBehaviour
 
         if (string.IsNullOrEmpty(loginCheckMessage)) {
             Debug.Log("LOGIN");
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene("SelectLevel");
         } else
         {
             Debug.LogError("ERROR" +loginCheckMessage);

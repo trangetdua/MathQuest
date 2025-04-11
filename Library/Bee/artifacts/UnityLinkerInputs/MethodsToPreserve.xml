@@ -1,0 +1,44 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="DialogueManager">
+			<method name="OnSubmitAnswer"/>
+		</type>
+		<type fullname="GameOverManager">
+			<method name="LoadSelectLevelScene"/>
+		</type>
+		<type fullname="LoginGestion">
+			<method name="onSubmitLogin"/>
+			<method name="RemoveErrorText"/>
+			<method name="RemoveErrorText"/>
+		</type>
+		<type fullname="menu_equations">
+			<method name="lancerNiveau1"/>
+			<method name="lancerNiveau2"/>
+			<method name="lancerNiveau3"/>
+			<method name="lancerNiveau4"/>
+			<method name="retourAuMenu"/>
+			<method name="retourAuMenu"/>
+			<method name="retourAuMenu"/>
+			<method name="retourAuMenu"/>
+		</type>
+		<type fullname="NiveauSelect">
+			<method name="SelectAvance"/>
+			<method name="SelectElementaire"/>
+			<method name="SelectExpert"/>
+			<method name="SelectIntermediaire"/>
+		</type>
+		<type fullname="StartGame">
+			<method name="LoadSignInScene"/>
+		</type>
+		<type fullname="StartNiveau">
+			<method name="LoadScene"/>
+			<method name="LoadScene"/>
+			<method name="LoadScene"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.AnimationModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Animator">
+			<method name="SetTrigger"/>
+		</type>
+	</assembly>
+</linker>
